@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   
+    .btn{
+        @apply hover:scale-125 cursor-pointer
+          transition-all duration-150  ease-in-out
+    }
+}
+
+
+
