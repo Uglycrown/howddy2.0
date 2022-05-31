@@ -31,7 +31,7 @@ function Navbar() {
              
 
               ):(<div className=" ">
-                   <img onClick={() => signIn()}  className=" mt-1  " src=" https://firebasestorage.googleapis.com/v0/b/howddy1-300b5.appspot.com/o/btn_google_signin_dark_focus_web.png?alt=media&token=ac3fa729-820e-4ac9-abcf-1891ae3138cc_focus_web.png " alt="" srcset="" />
+                   <img onClick={() => signIn()}  className=" mt-1  " src=" https://firebasestorage.googleapis.com/v0/b/howddy1-300b5.appspot.com/o/btn_google_signin_dark_focus_web.png?alt=media&token=ac3fa729-820e-4ac9-abcf-1891ae3138cc_focus_web.png " />
                 </div>
               )} 
              
