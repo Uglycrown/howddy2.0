@@ -21,7 +21,7 @@ console.log(posts)
 const {data:session} = useSession();
   return (
     
-      <div className=' h-screen  w-screen bg-gradient-to-r from-cyan-500 to-blue-500  '>
+      <div className='  h-full  w-full bg-gradient-to-r from-cyan-900 to-red-400  '>
          <h1 className=' sticky text-center text-lg font-semibold font-serif italic '>Express Yourself By Posting...</h1>               
          {session && (
       posts.map((post)=>(
