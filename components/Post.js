@@ -78,20 +78,20 @@ const Post = ({id, username, userImg, img, caption}) => {
 
   
   return (
-      <div className='sm:w-4/6  sm:h-4/6 sm:grid  lg:ml-52 sm:ml-40 sm:place-content-center '>
-    <div className=' grid place-content-center  max-w-full   mt-5  bg-gradient-to-r from-cyan-500 to-black-500  '>
-      
+      <div className=' sm:ml-96 '>
+    
+      <div  className='sm:w-1/2   sm:h-1/4   bg-gradient-to-r from-cyan-500 to-black-500 '>
                 
                 {/* top */}
-                  <div className='  m-3 flex justify-between  text-center'>
-                    <div className='flex'>
-                  <img className='  sm:grid sm:place-content-center w-6 h-6 rounded-full' src={userImg}alt="" />
+                  <div className='   flex justify-between  text-center'>
+                    <div className=' sm:5 flex'>
+                  <img className='    w-6 h-6 rounded-full' src={userImg}alt="" />
                   <p>{username}</p>
                   </div>
                   <DotsVerticalIcon className=' h-6'/>
                   </div>
               <div className=' grid justify-items-center'>
-                <img className='  min-w-screen w-full object-cover' src={img}  alt=""  />
+                <img className='  m-2  object-cover' src={img}  alt=""  />
               </div>
               {session && (
               <div className=' flex  justify-between '>
@@ -168,7 +168,7 @@ const Post = ({id, username, userImg, img, caption}) => {
      
      
       
-      </div>
+       </div>
       </div>
       
    
